@@ -6,7 +6,7 @@
 int main ()
 {
   double *a,*b;
-  int N=5;
+  int N;
   printf("please enter N \n N=");
   scanf("%d",&N);
   a=(double*)malloc(N*sizeof(double));
