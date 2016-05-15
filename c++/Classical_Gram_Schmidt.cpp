@@ -1,5 +1,6 @@
 /*******************************************************************
 *		Classical Gram-Schmidt (unstable) in LIoyd
+*		Date :  2016/05/15
 *******************************************************************/
 
 
@@ -71,7 +72,7 @@ int main()
         }
         printf("\n");
         printf(" The max error between Q * r and a : \n");
-        printf(" error = %f \n", e);
+        printf(" error = %e \n", e);
 
 	return 0;
 }

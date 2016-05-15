@@ -1,5 +1,6 @@
 /******************************************************************
 *		Modified Gram-Schmidt in Lioyd
+*		Date : 2016/05/15
 ******************************************************************/
 
 #include <stdio.h>
@@ -79,7 +80,7 @@ int main()
 
 	printf("\n");
 	printf(" The max error between Q * r and a : \n");
-	printf(" error = %f \n", e);
+	printf(" error = %e \n", e);
 
 	return 0;
 }
