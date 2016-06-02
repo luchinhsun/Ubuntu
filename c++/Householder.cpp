@@ -38,17 +38,18 @@ int main()
 	r = (double *) malloc(M*N*sizeof(double));
 	x = (double *) malloc(N*sizeof(double));
 
-	double v[M];
-	double va[N];
-	double temp;
+	double *v, *va, temp;
+	v = (double *) malloc(M*sizeof(double));
+	va = (double *) malloc(N*sizeof(double));
 
-	double V[M*N];
-	double b[M*M];
-	double temp1;
-	double bt[M*M];
+	double *V, *b, *bt, temp1;
+	V = (double *) malloc(M*N*sizeof(double));
+	b = (double *) malloc(M*M*sizeof(double));
+	bt = (double *) malloc(M*M*sizeof(double));
 
-	double qr[M*N];
-	double A[M*N];
+	double *qr, *A;
+	qr = (double *) malloc(M*N*sizeof(double));
+	A = (double *) malloc(M*N*sizeof(double));
 
 	//create a matrix
 	initial(a, r, M, N);
